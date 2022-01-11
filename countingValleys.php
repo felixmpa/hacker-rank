@@ -50,8 +50,8 @@
  *  1. INTEGER steps
  *  2. STRING path
  */
-function countingValleys($steps, $path)
-{
+function countingValleys($steps, $path){
+    
     $path   = str_split($path);
     $track  = array_fill(0, $steps, 0);
     $start  = 0;
